@@ -2,7 +2,7 @@
  * Main.cpp
  *
  *  Created on: 02 mar. 2017
- *      Author: Milagros Peña Quineche
+ *      Author: Milagros PeÃ±a Quineche
  */
 #include <iostream>
 #include <vector>
@@ -42,7 +42,7 @@ void resuelve(const vector<T> v, int cont, int k)
 int main(){
 	char caso;
 	
-	while (cin.fail()) {
+	while (!cin.fail()) {
 		cin >> caso;
 		if (caso == 'N') {
 			casoInt();
